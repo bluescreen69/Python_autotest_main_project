@@ -6,3 +6,9 @@ class MainPageLocators:
 class LoginPageLocators:
     LOGIN_FORM = (By.CSS_SELECTOR, "#login_form")
     REGISTER_FORM = (By.CSS_SELECTOR, "#register_form")
+
+class ProductPageLocators:
+    BUTTON = (By.CSS_SELECTOR, ".btn-add-to-basket")
+    MESSAGE = (By.CSS_SELECTOR, ".alertinner")
+    NAME = (By.CSS_SELECTOR, "div.col-sm-6.product_main > h1")
+    PRICE = (By.CSS_SELECTOR, ".col-sm-6 .price_color")
