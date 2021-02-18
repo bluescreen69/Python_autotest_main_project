@@ -9,6 +9,6 @@ class LoginPageLocators:
 
 class ProductPageLocators:
     BUTTON = (By.CSS_SELECTOR, ".btn-add-to-basket")
-    MESSAGE = (By.CSS_SELECTOR, ".alertinner")
+    MESSAGE = (By.CSS_SELECTOR, ".alertinner strong")
     NAME = (By.CSS_SELECTOR, "div.col-sm-6.product_main > h1")
     PRICE = (By.CSS_SELECTOR, ".col-sm-6 .price_color")
